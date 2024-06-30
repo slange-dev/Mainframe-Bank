@@ -143,7 +143,7 @@
        01  TELA-INCLUSAO.
            03 BLANK SCREEN.
            03 LINE 01 COL 01 VALUE "**********************************".
-           03 LINE 02 COL 01 VALUE "     INCLUSAO DE NOVO CADASTRO".
+           03 LINE 02 COL 01 VALUE "     INCLUSAO DE NOVO CADASTRO    ".
            03 LINE 03 COL 01 VALUE "**********************************".
            03 LINE 04 COL 01 VALUE "Conta Corrente: ".
            03 LINE 05 COL 01 VALUE "Codigo da agencia: ".
@@ -153,7 +153,7 @@
        01  TELA-CONSULTA.
            03 BLANK SCREEN.
            03 LINE 01 COL 01 VALUE "**********************************".
-           03 LINE 02 COL 01 VALUE "              CONSULTA".
+           03 LINE 02 COL 01 VALUE "              CONSULTA            ".
            03 LINE 03 COL 01 VALUE "**********************************".
            03 LINE 05 COL 01 VALUE "Consultar pelo codigo da conta ou".
            03 LINE 06 COL 01 VALUE "pelo nome do cliente?".
@@ -165,14 +165,14 @@
        01  TELA-CONSULTA-CONTA.
            03 BLANK SCREEN.
            03 LINE 01 COL 01 VALUE "**********************************".
-           03 LINE 02 COL 01 VALUE "         CONSULTA POR CONTA".
+           03 LINE 02 COL 01 VALUE "         CONSULTA POR CONTA       ".
            03 LINE 03 COL 01 VALUE "**********************************".
            03 LINE 05 COL 01 VALUE "Digite o codigo da conta: ".
 
        01  TELA-CONSULTA-NOME.
            03 BLANK SCREEN.
            03 LINE 01 COL 01 VALUE "**********************************".
-           03 LINE 02 COL 01 VALUE "         CONSULTA POR NOME".
+           03 LINE 02 COL 01 VALUE "         CONSULTA POR NOME        ".
            03 LINE 03 COL 01 VALUE "**********************************".
            03 LINE 05 COL 01 VALUE "Digite um nome de dono da conta: ".
 
@@ -186,22 +186,22 @@
        01  TELA-EXCLUSAO.
            03 BLANK SCREEN.
            03 LINE 01 COL 01 VALUE "**********************************".
-           03 LINE 02 COL 01 VALUE "         TELA DE EXCLUSAO".
+           03 LINE 02 COL 01 VALUE "         TELA DE EXCLUSAO         ".
            03 LINE 03 COL 01 VALUE "**********************************".
            03 LINE 04 COL 01 VALUE "Digite o codigo da conta:".
 
        01  TELA-LISTAR.
            03 BLANK SCREEN.
-           03 LINE 01 COL 01 VALUE "***********************************".
-           03 LINE 02 COL 01 VALUE "         LISTA DE CADASTROS".
-           03 LINE 03 COL 01 VALUE "***********************************".
+           03 LINE 01 COL 01 VALUE "**********************************".
+           03 LINE 02 COL 01 VALUE "         LISTA DE CADASTROS       ".
+           03 LINE 03 COL 01 VALUE "**********************************".
 
        01  TELA-ALTERACAO.
            03 BLANK SCREEN.
-           03 LINE 01 COL 01 VALUE "***********************************".
-           03 LINE 02 COL 01 VALUE "         TELA DE ALTERACAO".
-           03 LINE 03 COL 01 VALUE "***********************************".
-           03 LINE 04 COL 01 VALUE "     DIGITE O CODIGO DA CONTA      ".
+           03 LINE 01 COL 01 VALUE "**********************************".
+           03 LINE 02 COL 01 VALUE "         TELA DE ALTERACAO        ".
+           03 LINE 03 COL 01 VALUE "**********************************".
+           03 LINE 04 COL 01 VALUE "     DIGITE O CODIGO DA CONTA     ".
            03 LINE 05 COL 01 VALUE "     A SER ALTERADA:".
 
        01  TELA-INFO-ALTERACAO.
